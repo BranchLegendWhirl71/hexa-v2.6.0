@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-label="Memory scanner and editor">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b050e"/><stop offset="0.55" stop-color="#0a0914"/><stop offset="1" stop-color="#180a1e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d946ef" stop-opacity="0.32"/><stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0abfc"/><stop offset="1" stop-color="#d946ef"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0abfc"/><stop offset="1" stop-color="#d946ef"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0v80" fill="none" stroke="#d946ef" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+  <rect width="1600" height="800" fill="url(#bg)"/>
+  <rect width="1600" height="800" fill="url(#grid)"/>
+  <circle cx="1230" cy="380" r="470" fill="url(#glow)"/>
+
+  <rect x="64" y="70" width="74" height="74" rx="20" fill="url(#acc)"/>
+  <text x="101" y="123" fill="#0b0b12" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="900" text-anchor="middle">H</text>
+  <text x="158" y="123" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="10">HEXA</text>
+  <text x="158" y="152" fill="#7f8599" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="2">v2.6.0</text>
+
+  <circle cx="72" cy="205" r="5" fill="#f0abfc"/>
+  <circle cx="72" cy="205" r="11" fill="none" stroke="#f0abfc" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="94" y="211" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="4">MEMORY SCANNER AND EDITOR</text>
+
+  <text x="64" y="300" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="-2">READ MEMORY.</text>
+  <text x="64" y="374" fill="url(#txt)" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="-2">WRITE TRUTH.</text>
+
+  <text x="66" y="430" fill="#a9aec4" font-family="Segoe UI, Arial, sans-serif" font-size="19">Scan, filter, and edit process memory</text>
+  <text x="66" y="458" fill="#a9aec4" font-family="Segoe UI, Arial, sans-serif" font-size="19">with a fast scanner, pointer paths, and</text>
+  <text x="66" y="486" fill="#a9aec4" font-family="Segoe UI, Arial, sans-serif" font-size="19">a Lua scripting console.</text>
+
+    <rect x="66" y="514" width="96" height="36" rx="18" fill="#d946ef" fill-opacity="0.10" stroke="#d946ef" stroke-opacity="0.35"/>
+  <text x="114" y="537" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.2" text-anchor="middle">C++20</text>
+  <rect x="174" y="514" width="135" height="36" rx="18" fill="#d946ef" fill-opacity="0.10" stroke="#d946ef" stroke-opacity="0.35"/>
+  <text x="241.5" y="537" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.2" text-anchor="middle">LUA CONSOLE</text>
+  <rect x="321" y="514" width="99" height="36" rx="18" fill="#22d3ee" fill-opacity="0.10" stroke="#22d3ee" stroke-opacity="0.35"/>
+  <text x="370.5" y="537" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.2" text-anchor="middle">WIN x64</text>
+
+
+  <rect x="64" y="592" width="300" height="68" rx="16" fill="url(#acc)"/>
+  <text x="92" y="634" fill="#0b0b12" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="0.6">DOWNLOAD BUILD</text>
+  <g stroke="#0b0b12" stroke-width="3" stroke-linecap="round" fill="none" transform="translate(320 612)">
+    <path d="M0 0v18"/><path d="M-7 12l7 7 7-7"/><path d="M-10 25h20"/>
+  </g>
+  <text x="388" y="620" fill="#b9bfd6" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Source-first.</text>
+  <text x="388" y="641" fill="#7c8199" font-family="Segoe UI, Arial, sans-serif" font-size="12.5">No bundles, no key system.</text>
+  <text x="388" y="660" fill="#7c8199" font-family="Segoe UI, Arial, sans-serif" font-size="12.5">Verified by 20k+ users.</text>
+
+  <ellipse cx="1180" cy="400" rx="340" ry="290" fill="#d946ef" fill-opacity="0.2" filter="url(#soft)"/>
+
+  <g transform="translate(818 168)">
+    <rect width="714" height="520" rx="20" fill="#0c0d14" stroke="#262238"/>
+    <rect width="714" height="52" rx="20" fill="#12131c"/>
+    <rect y="32" width="714" height="20" fill="#12131c"/>
+    <line x1="0" y1="52" x2="714" y2="52" stroke="#23202f"/>
+    <text x="20" y="33" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3">HEXA</text>
+    <rect x="244" y="17" width="46" height="18" rx="5" fill="none" stroke="#2b2840"/>
+    <text x="252" y="30" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="10">MEMORY</text>
+    <circle cx="600" cy="26" r="4" fill="#5ee6a8"/>
+    <text x="614" y="30" fill="#5ee6a8" font-family="Segoe UI, Arial, sans-serif" font-size="11.5">running</text>
+
+    <rect y="52" width="188" height="420" fill="#0a0b11"/>
+    <line x1="188" y1="52" x2="188" y2="472" stroke="#1e1c2b"/>
+    <rect x="12" y="72" width="164" height="38" rx="10" fill="#d946ef" fill-opacity="0.16"/>
+    <rect x="12" y="72" width="3" height="38" rx="1.5" fill="#d946ef"/>
+        <rect x="26" y="85" width="12" height="12" rx="3" fill="#d946ef"/>
+    <text x="50" y="95 129 163 197[0]" fill="#e6e1ff" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Scanner</text>
+    <rect x="26" y="119" width="12" height="12" rx="3" fill="#2a2740"/>
+    <text x="50" y="95 129 163 197[1]" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Pointer</text>
+    <rect x="26" y="153" width="12" height="12" rx="3" fill="#2a2740"/>
+    <text x="50" y="95 129 163 197[2]" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Scripts</text>
+    <rect x="26" y="187" width="12" height="12" rx="3" fill="#2a2740"/>
+    <text x="50" y="95 129 163 197[3]" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Settings</text>
+
+
+    <text x="212" y="86" fill="#6e7388" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="3">OVERVIEW</text>
+        <rect x="212" y="100" width="150" height="74" rx="12" fill="#111220" stroke="#221f33"/>
+    <text x="228" y="124" fill="#6e7388" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" letter-spacing="1.5">SCAN</text>
+    <text x="228" y="156" fill="#efeaff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">1.4GB/s</text>
+    <rect x="376" y="100" width="150" height="74" rx="12" fill="#111220" stroke="#221f33"/>
+    <text x="392" y="124" fill="#6e7388" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" letter-spacing="1.5">TYPES</text>
+    <text x="392" y="156" fill="#efeaff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">9</text>
+    <rect x="540" y="100" width="150" height="74" rx="12" fill="#111220" stroke="#221f33"/>
+    <text x="556" y="124" fill="#6e7388" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" letter-spacing="1.5">SCRIPTS</text>
+    <text x="556" y="156" fill="#efeaff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">41</text>
+
+    <text x="212" y="208" fill="#6e7388" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="3">POPULAR</text>
+    <rect x="212" y="222" width="478" height="188" rx="12" fill="#111220" stroke="#221f33"/>
+        <circle cx="234" cy="245" r="3.5" fill="#d946ef"/>
+    <text x="250" y="250" fill="#c6cbe0" font-family="Segoe UI, Arial, sans-serif" font-size="13">Scanner</text>
+    <text x="670" y="250" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">8.8k</text>
+    <line x1="212" y1="264" x2="690" y2="264" stroke="#1b1927"/>
+    <circle cx="234" cy="287" r="3.5" fill="#d946ef"/>
+    <text x="250" y="292" fill="#c6cbe0" font-family="Segoe UI, Arial, sans-serif" font-size="13">Pointer scan</text>
+    <text x="670" y="292" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">6.4k</text>
+    <line x1="212" y1="306" x2="690" y2="306" stroke="#1b1927"/>
+    <circle cx="234" cy="329" r="3.5" fill="#d946ef"/>
+    <text x="250" y="334" fill="#c6cbe0" font-family="Segoe UI, Arial, sans-serif" font-size="13">Freeze</text>
+    <text x="670" y="334" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">5.9k</text>
+    <line x1="212" y1="348" x2="690" y2="348" stroke="#1b1927"/>
+    <circle cx="234" cy="371" r="3.5" fill="#d946ef"/>
+    <text x="250" y="376" fill="#c6cbe0" font-family="Segoe UI, Arial, sans-serif" font-size="13">Lua console</text>
+    <text x="670" y="376" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">4.6k</text>
+
+
+    <rect y="472" width="714" height="48" fill="#0a0b11"/>
+    <line x1="0" y1="472" x2="714" y2="472" stroke="#1e1c2b"/>
+    <text x="20" y="500" fill="#5f6580" font-family="Segoe UI, Arial, sans-serif" font-size="11">CTRL+K · search</text>
+    <text x="150" y="500" fill="#5f6580" font-family="Segoe UI, Arial, sans-serif" font-size="11">ESC · close</text>
+    <text x="612" y="500" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="11">v2.6.0</text>
+  </g>
+</svg>

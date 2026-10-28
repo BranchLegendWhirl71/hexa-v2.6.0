@@ -1,0 +1,20 @@
+# build output
+dist/
+build/
+bin/
+obj/
+*.exe
+*.dll
+*.zip
+
+# local config
+.env
+config.local.*
+*.log
+logs/
+
+# editor
+.vs/
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="HEXA logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0abfc"/><stop offset="1" stop-color="#d946ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#g)"/>
+  <rect x="2" y="2" width="252" height="252" rx="56" fill="none" stroke="#ffffff" stroke-opacity="0.24"/>
+  <text x="128" y="176" fill="#0b0b12" font-family="Segoe UI, Arial, sans-serif" font-size="132" font-weight="900" text-anchor="middle">H</text>
+</svg>

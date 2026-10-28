@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Memory scanner and editor preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b050e"/><stop offset="0.5" stop-color="#0a0914"/><stop offset="1" stop-color="#180a1e"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d946ef" stop-opacity="0.26"/><stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0abfc"/><stop offset="1" stop-color="#d946ef"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0v64" fill="none" stroke="#d946ef" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="1330" cy="120" r="420" fill="url(#g1)"/>
+
+  <g transform="translate(200 80)">
+    <rect width="1200" height="740" rx="18" fill="#0b0c13" stroke="#262238"/>
+    <rect width="1200" height="58" rx="18" fill="#11121b"/>
+    <rect y="40" width="1200" height="18" fill="#11121b"/>
+    <line x1="0" y1="58" x2="1200" y2="58" stroke="#23202f"/>
+    <rect x="18" y="14" width="30" height="30" rx="9" fill="url(#acc)"/>
+    <text x="33" y="35" fill="#0b0b12" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="900" text-anchor="middle">H</text>
+    <text x="60" y="35" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="3">HEXA</text>
+    <rect x="150" y="19" width="48" height="19" rx="5" fill="none" stroke="#2b2840"/>
+    <text x="158" y="33" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="10">v2.6.0</text>
+    <circle cx="1052" cy="29" r="4.5" fill="#5ee6a8"/>
+    <text x="1066" y="34" fill="#5ee6a8" font-family="Segoe UI, Arial, sans-serif" font-size="12">connected</text>
+
+    <rect y="58" width="230" height="622" fill="#090a10"/>
+    <line x1="230" y1="58" x2="230" y2="680" stroke="#1e1c2b"/>
+    <text x="22" y="92" fill="#4b5068" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="2.4">WORKSPACE</text>
+        <rect x="12" y="104" width="206" height="38" rx="10" fill="#d946ef" fill-opacity="0.14"/>
+    <rect x="12" y="104" width="3" height="38" rx="1.5" fill="#d946ef"/>
+    <rect x="26" y="115" width="14" height="14" rx="4" fill="#d946ef"/>
+    <text x="50" y="129" fill="#e6e1ff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Scanner</text>
+    <rect x="26" y="153" width="14" height="14" rx="4" fill="#232034"/>
+    <text x="50" y="167" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Pointer</text>
+    <rect x="26" y="191" width="14" height="14" rx="4" fill="#232034"/>
+    <text x="50" y="205" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Scripts</text>
+    <rect x="26" y="229" width="14" height="14" rx="4" fill="#232034"/>
+    <text x="50" y="243" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Settings</text>
+    <rect x="26" y="267" width="14" height="14" rx="4" fill="#232034"/>
+    <text x="50" y="281" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="14">About</text>
+
+    <line x1="20" y1="356" x2="210" y2="356" stroke="#1e1c2b"/>
+    <text x="22" y="384" fill="#4b5068" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="2.4">RECENT</text>
+        <circle cx="30" cy="410 444 478[0]" r="4" fill="#d946ef" fill-opacity="0.6"/>
+    <text x="48" y="415" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Scanner</text>
+    <circle cx="30" cy="410 444 478[1]" r="4" fill="#d946ef" fill-opacity="0.6"/>
+    <text x="48" y="449" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Pointer scan</text>
+    <circle cx="30" cy="410 444 478[2]" r="4" fill="#d946ef" fill-opacity="0.6"/>
+    <text x="48" y="483" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Freeze</text>
+
+    <rect x="16" y="596" width="198" height="68" rx="12" fill="#111220" stroke="#221f33"/>
+    <text x="30" y="620" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="11">Free build</text>
+    <text x="30" y="641" fill="#5ee6a8" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600">no key required</text>
+    <circle cx="196" cy="620" r="4" fill="#5ee6a8"/>
+
+    <text x="258" y="96" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">Scanner</text>
+    <text x="258" y="120" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="12.5">Scan, filter, and edit process memory with pointer paths and a Lua console.</text>
+    <rect x="760" y="76" width="300" height="40" rx="10" fill="#111220" stroke="#221f33"/>
+    <circle cx="782" cy="96" r="6" fill="none" stroke="#5f6580" stroke-width="2"/>
+    <path d="M787 101l5 5" stroke="#5f6580" stroke-width="2" stroke-linecap="round"/>
+    <text x="800" y="101" fill="#5f6580" font-family="Segoe UI, Arial, sans-serif" font-size="12.5">Search…</text>
+    <rect x="1074" y="76" width="88" height="40" rx="10" fill="#d946ef" fill-opacity="0.14" stroke="#d946ef" stroke-opacity="0.35"/>
+    <text x="1118" y="101" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Filter</text>
+
+        <rect x="258" y="142" width="286" height="152" rx="12" fill="#111220" stroke="#221f33"/>
+    <rect x="274" y="158" width="40" height="40" rx="10" fill="#d946ef" fill-opacity="0.16"/>
+    <text x="290" y="184" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle">S</text>
+    <text x="326" y="172" fill="#efeaff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Scanner</text>
+    <text x="326" y="192" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="11">8.8k</text>
+    <text x="274" y="228" fill="#9aa0b5" font-family="Segoe UI, Arial, sans-serif" font-size="11.5">Ready to use, with sane defaults</text>
+    <text x="274" y="248" fill="#9aa0b5" font-family="Segoe UI, Arial, sans-serif" font-size="11.5">and a full manual override.</text>
+    <text x="528" y="280" fill="#5f6580" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">v2.6.0</text>
+    <rect x="558" y="142" width="286" height="152" rx="12" fill="#111220" stroke="#221f33"/>
+    <rect x="574" y="158" width="40" height="40" rx="10" fill="#d946ef" fill-opacity="0.16"/>
+    <text x="590" y="184" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle">P</text>
+    <text x="626" y="172" fill="#efeaff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Pointer scan</text>
+    <text x="626" y="192" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="11">6.4k</text>
+    <text x="574" y="228" fill="#9aa0b5" font-family="Segoe UI, Arial, sans-serif" font-size="11.5">Ready to use, with sane defaults</text>
+    <text x="574" y="248" fill="#9aa0b5" font-family="Segoe UI, Arial, sans-serif" font-size="11.5">and a full manual override.</text>
+    <text x="828" y="280" fill="#5f6580" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">v2.6.0</text>
+    <rect x="858" y="142" width="286" height="152" rx="12" fill="#111220" stroke="#221f33"/>
+    <rect x="874" y="158" width="40" height="40" rx="10" fill="#d946ef" fill-opacity="0.16"/>
+    <text x="890" y="184" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle">F</text>
+    <text x="926" y="172" fill="#efeaff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Freeze</text>
+    <text x="926" y="192" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="11">5.9k</text>
+    <text x="874" y="228" fill="#9aa0b5" font-family="Segoe UI, Arial, sans-serif" font-size="11.5">Ready to use, with sane defaults</text>
+    <text x="874" y="248" fill="#9aa0b5" font-family="Segoe UI, Arial, sans-serif" font-size="11.5">and a full manual override.</text>
+    <text x="1128" y="280" fill="#5f6580" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="end">v2.6.0</text>
+
+        <rect x="258" y="318" width="886" height="46" rx="10" fill="#0f1019" stroke="#221f33"/>
+    <circle cx="280" cy="341" r="4" fill="#d946ef"/>
+    <text x="298" y="346" fill="#c6cbe0" font-family="Segoe UI, Arial, sans-serif" font-size="13">Lua console</text>
+    <text x="900" y="346" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="11">4.6k</text>
+    <rect x="1050" y="329" width="72" height="24" rx="7" fill="#d946ef" fill-opacity="0.12" stroke="#d946ef" stroke-opacity="0.3"/>
+    <text x="1086" y="345" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="middle">enable</text>
+    <rect x="258" y="372" width="886" height="46" rx="10" fill="#0f1019" stroke="#221f33"/>
+    <circle cx="280" cy="395" r="4" fill="#d946ef"/>
+    <text x="298" y="400" fill="#c6cbe0" font-family="Segoe UI, Arial, sans-serif" font-size="13">Hex view</text>
+    <text x="900" y="400" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="11">3.8k</text>
+    <rect x="1050" y="383" width="72" height="24" rx="7" fill="#d946ef" fill-opacity="0.12" stroke="#d946ef" stroke-opacity="0.3"/>
+    <text x="1086" y="399" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="middle">enable</text>
+    <rect x="258" y="426" width="886" height="46" rx="10" fill="#0f1019" stroke="#221f33"/>
+    <circle cx="280" cy="449" r="4" fill="#d946ef"/>
+    <text x="298" y="454" fill="#c6cbe0" font-family="Segoe UI, Arial, sans-serif" font-size="13">Tables</text>
+    <text x="900" y="454" fill="#6f7488" font-family="Segoe UI, Arial, sans-serif" font-size="11">3.1k</text>
+    <rect x="1050" y="437" width="72" height="24" rx="7" fill="#d946ef" fill-opacity="0.12" stroke="#d946ef" stroke-opacity="0.3"/>
+    <text x="1086" y="453" fill="#f0abfc" font-family="Segoe UI, Arial, sans-serif" font-size="10" text-anchor="middle">enable</text>
+
+
+    <rect y="680" width="1200" height="60" fill="#090a10"/>
+    <line x1="0" y1="680" x2="1200" y2="680" stroke="#1e1c2b"/>
+    <text x="24" y="715" fill="#5f6580" font-family="Segoe UI, Arial, sans-serif" font-size="11">CTRL+ENTER · run</text>
+    <text x="240" y="715" fill="#5f6580" font-family="Segoe UI, Arial, sans-serif" font-size="11">F5 · refresh</text>
+    <text x="1176" y="715" fill="#8d93a8" font-family="Segoe UI, Arial, sans-serif" font-size="11" text-anchor="end">HEXA v2.6.0</text>
+  </g>
+</svg>
